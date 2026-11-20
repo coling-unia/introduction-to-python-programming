@@ -1,0 +1,49 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: introduction
+parts:
+- caption: 01 Algorithms
+  chapters:
+  - glob: 01/*
+- caption: 02 IDE Intro
+  chapters:
+  - glob: 02/*
+- caption: 03 Variables, Types and Operators
+  chapters:
+  - glob: 03/*
+- caption: 04 Control Structures
+  chapters:
+  - glob: 04/*
+- caption: 05 Functions I
+  chapters:
+  - glob: 05/*
+- caption: 06 Collections
+  chapters:
+  - glob: 06/*
+- caption: 07 Functions II
+  chapters:
+  - glob: 07/*
+- caption: 08 Files
+  chapters:
+  - glob: 08/*
+- caption: 09 OOP I
+  chapters:
+  - glob: 09/*
+- caption: 10 OOP II
+  chapters:
+  - glob: 10/*
+- caption: 11 Iterators, Generators and List Comprehentions
+  chapters:
+  - glob: 11/*
+- caption: 12 Recap
+  chapters:
+  - glob: 12/*
+- caption: 13 Data Science
+  chapters:
+  - glob: 13/*
+- caption: 14 Text Processing
+  chapters:
+  - glob: 14/*
+
