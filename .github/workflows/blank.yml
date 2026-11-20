@@ -27,6 +27,8 @@ jobs:
         run: |
           jupyter-book build script
           test -f script/_build/html/index.html
+      - name: Copy image assets
+        run: cp -R images script/_build/html/images
       - uses: actions/upload-pages-artifact@v3
         with:
           path: script/_build/html

@@ -1,0 +1,1 @@
+Please put all images here + link them with absolute references to the GitHub path of the image.
