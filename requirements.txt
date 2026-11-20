@@ -1,2 +1,5 @@
-jupyter-book<2
-livereload
+jupyter-book
+matplotlib
+numpy
+pandas
+scikit-learn
